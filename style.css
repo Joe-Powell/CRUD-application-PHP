@@ -1,0 +1,106 @@
+/* *************navbar ***************** */
+
+.navbar {
+    background-color: lightblue;
+}
+
+ .navbar ul {
+     display: inline-block;
+    list-style: none;
+    padding: 10px;
+   
+    }
+
+ .navbar ul li {
+     display: inline-block;
+     background-color: white;
+    color:blue;
+    border:1px solid blue;
+    padding: 10px;
+    margin: 0px 10px;
+
+ }
+
+ .navbar ul li:hover {
+     background-color: blue;
+     color: white;
+ }
+
+
+
+ /* **************index.php********* */
+ .well {
+  background-color: ;
+  height:500px;
+ }
+ .well h3 {
+color: blue;
+
+}
+
+
+
+
+.well p {
+    background-color: lightblue;
+    width: fit-content;
+   
+    padding:10px 15px;
+    
+}
+
+
+
+ 
+.btn-post {
+   background-color: slategray;
+   color:white;
+   margin-left: 120px;
+   margin-top: 25px;
+   width:100px;
+   height:40px;
+}
+
+ label {
+    color:blue;
+     width: 50px ; 
+}
+
+.form-control {
+  margin: 5px 10px;  
+}
+
+
+ /* display flex made it go top left and also can make width of label all 50px above  */
+.form-group {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+      /* post.php */
+
+      .btn-delete {
+        background-color: red;
+        padding:5px;
+        border:none;
+        margin: 12px 10px; 
+        cursor: pointer;
+
+      }
+    
+
+      .edit-btn {
+         text-decoration: none;
+        background-color: lightblue;
+        width:48px;
+        height: 25px;
+        padding:5px 12px;
+        margin-left:11px;
+        
+        border:none;
+        
+
+      }
